@@ -7,5 +7,5 @@ Steps to get docker image:</br>
 <b>3. Build docker image</b></br>
 <code>docker build -t myapp .</code></br>
 <b>4. Run docker container with newly created image</b></br>
-<code>docker run -t -d -p 5004:5004 myapp</code></br>
+<code>docker run -t -d -p 5005:5005 myapp</code></br>
 <b>5. That's it. Now you can see your app at localhost:5004 (localhost on host machine i.e. linux vm)</b>
