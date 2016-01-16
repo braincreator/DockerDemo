@@ -1,5 +1,0 @@
-build:
-    image: gcr.io/containerdemo-1190/pollservice
-    commands:
-        - dnu restore
-        - dnx web
